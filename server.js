@@ -46,7 +46,7 @@ app.get('/students/:id', (req, res) => {
     data: student
   });
 });
-// POST API - Add a new student
+// POST API - Adding a new student
 app.post('/students', (req, res) => {
   const { name, rollNo, course } = req.body;
 
