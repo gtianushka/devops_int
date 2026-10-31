@@ -19,7 +19,7 @@ let students = [
     course: 'CSE'
   }
 ];
-
+// GET API - Retrieve all students
 app.get('/students', (req, res) => {
   res.json({
     success: true,
