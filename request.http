@@ -1,0 +1,19 @@
+GET http://localhost:3000/students
+GET http://localhost:3000/students/1
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "name": "Anushka",
+    "rollNo": "101",
+    "course": "CSE"
+}
+
+PATCH http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+    "course": "IT"
+}
+
+DELETE http://localhost:3000/students/2
